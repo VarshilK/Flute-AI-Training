@@ -1,0 +1,32 @@
+name: flute_ai
+description: AI-powered flute training app
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Audio playback for metronome tick
+  just_audio: ^0.9.36
+
+  # Microphone & camera permissions
+  permission_handler: ^11.0.1
+
+  # Camera feed for posture analysis
+  camera: ^0.10.5+9
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/tick.mp3
+
+  # Optional: add custom fonts here if desired
+  # fonts:
+  #   - family: MyFont
+  #     fonts:
+  #       - asset: fonts/MyFont-Regular.ttf

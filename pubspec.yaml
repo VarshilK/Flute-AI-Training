@@ -18,12 +18,14 @@ dependencies:
 
   # Camera feed for posture analysis
   camera: ^0.10.5+9
+  google_generative_ai: ^0.4.7
 
 flutter:
   uses-material-design: true
 
   assets:
     - assets/tick.mp3
+    - assets/varshil.png
 
   # Optional: add custom fonts here if desired
   # fonts:
